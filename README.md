@@ -9,7 +9,7 @@ Repository to install, operate and test Kafka, on Kubenetes. Will also contain s
 
 ## Instllasjon
 ´mini1-2:~ tores$ helm install my-kafka bitnami/kafka´
-
+<>
 ## 
 
 
