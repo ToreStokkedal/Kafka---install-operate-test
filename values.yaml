@@ -1,0 +1,7 @@
+## Tore S; Holder dette for å trigge 
+
+externalAccess:
+  ## Enable Kubernetes external cluster access to Kafka brokers
+  ##
+  enabled: true
+

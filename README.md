@@ -10,14 +10,10 @@ Repository to install, operate and test Kafka, on Kubenetes. Will also contain s
 ## Instllasjon
 ´mini1-2:~ tores$ helm install my-kafka bitnami/kafka´
 <>
-## 
+## Vil oppdateres når KafkaInstall har dokumentert
+
+https://argus-sec.com/external-communication-with-apache-kafka-deployed-in-kubernetes-cluster/
+https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
 
 
-# Expose Kafka outside cluster.
 
-Article found here https://argus-sec.com/external-communication-with-apache-kafka-deployed-in-kubernetes-cluster/
-
-It points at LoadBalancer as soluiton. We may use Ingress for HTTP/REST, but ....
-We may use NodePort, but ....
-
-So we will test a ading a load *balancer* in mini1
