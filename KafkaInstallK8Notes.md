@@ -56,3 +56,7 @@ To create a pod that you can use as a Kafka client run the following commands:
             --bootstrap-server my-kafka.default.svc.cluster.local:9092 \
             --topic test \
             --from-beginning
+
+
+Test conmand:
+./kafka-consumer-groups.sh  --bootstrap-server my-kafka-0.my-kafka-headless.default.svc.cluster.local:9092 --list

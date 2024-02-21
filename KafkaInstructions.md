@@ -16,7 +16,7 @@ For å bruke kafka command linje så lages en pod/ciontainer m klienten på ;
     kubectl exec --tty -i my-kafka-client --namespace default -- bash
 	cd /opt/bitnami/kafka/bin
 
-     kafka-topics my-kafka-0.my-kafka-headless.default.svc.cluster.local:9092 \
+     kafka-topics my-kafka-0.my-kafka-headless.default.svc.cluster.local:9092 
             --topic test
 
 # Kafka on RHEL1

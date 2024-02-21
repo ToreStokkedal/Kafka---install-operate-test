@@ -1,7 +1,7 @@
 ## Tore S; Holder dette for å trigge 
+## Kommando helm install bitnami/kafka -f values.yaml 
 
 externalAccess:
   ## Enable Kubernetes external cluster access to Kafka brokers
   ##
-  enabled: true
-
+  enabled:
